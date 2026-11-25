@@ -1,0 +1,69 @@
+# Local Python environments, downloaded tools, and caches
+/.venv/
+/venv/
+/env/
+/.cache/
+/.tools/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Private projects, uploaded photographs, generated scenes, and QA artifacts
+/data/
+/test-results/
+/outputs/
+/webapp_uploads/
+*.stageai
+
+# Downloaded upstream checkout; setup.ps1 clones the pinned revision
+# Keep StageAI source, documentation, fixtures, and viewer vendor assets tracked.
+/upstream/WorldBuilder/
+
+# Large model checkpoints and local inference caches
+/checkpoints/
+/models/
+/torch_cache/
+/hf_cache/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Local secrets; allow shareable configuration templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+/.aws/
+
+# Build, packaging, coverage, and temporary files
+/build/
+/dist/
+*.egg-info/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Machine-specific editor and operating-system files
+/.idea/
+/.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+

@@ -1,0 +1,6 @@
+# Optional CPU-only test additions, separate from the app's requirements.
+-r requirements-dev.txt
+opencv-python-headless==4.11.0.86
+fast-simplification==0.1.11
+xatlas==0.0.11
+# Install torch==2.8.0 from https://download.pytorch.org/whl/cpu separately.
